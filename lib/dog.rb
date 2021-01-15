@@ -6,6 +6,7 @@ class Dog
   
   attr_accessor :name 
   
+<<<<<<< HEAD
    def initialize(name)
     @name = name 
     self.save
@@ -15,6 +16,9 @@ class Dog
     @@all << self
   end
   
+=======
+
+>>>>>>> 856727c1cd3120e0852c61b3f653ce7abde4d299
   def self.all
     @@all
   end
@@ -27,7 +31,14 @@ class Dog
     @@all.clear 
   end
   
+<<<<<<< HEAD
 
+=======
+   def initialize(name)
+    @name = name 
+    self.save
+  end
+>>>>>>> 856727c1cd3120e0852c61b3f653ce7abde4d299
   
   
   
